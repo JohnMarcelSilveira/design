@@ -1,0 +1,40 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,100px);
+  }
+
+H1 {
+    color: #000;
+    font-size: 12pt;
+    font-family: helvetica;
+    
+}
+
+H1:first-letter {font-size: 200%}
+
+.alerta {
+    color: red
+}
+
+
+#el123 {
+    color: aqua;
+}
+
+BODY {color: red}
+
+* {
+    text-align: center;
+    color: blue;
+  }
+
+H1:hover{
+    background-color: #000; color: blue;
+}
+
+div:hover p {
+    color: blueviolet;
+}
