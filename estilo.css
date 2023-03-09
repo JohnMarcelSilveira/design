@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');/*importando fonte do google fontes*/
 
 
 div {
@@ -7,12 +7,13 @@ div {
     background-color: yellow;
     border: 1px solid black;
     transform: translate(50px,100px);
+    font-family: 'Tilt Neon';
   }
 
 H1 {
     color: #000;
     font-size: 12pt;
-    font-family: 'Tilt Neon', cursive;
+    font-family: 'Tilt Neon', cursive; /*colocando a fonte que foi importada*/
     
 }
 
