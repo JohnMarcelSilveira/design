@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
 div {
     width: 300px;
     height: 100px;
@@ -9,7 +12,7 @@ div {
 H1 {
     color: #000;
     font-size: 12pt;
-    font-family: helvetica;
+    font-family: 'Tilt Neon', cursive;
     
 }
 
