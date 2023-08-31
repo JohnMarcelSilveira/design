@@ -1,15 +1,16 @@
-DROP DATABASE IF EXISTS Portal;
+DROP DATABASE IF EXISTS portal;
 
-CREATE DATABASE Portal;
+CREATE DATABASE portal;
 
-\c Portal
+\c portal
 
 
 CREATE TABLE postagem(
     id serial primary key,
     titulo varchar(60) not null,
     texto text not null,
-    data_hora timestamp default current_timestamp
+    data_hora timestamp default current_timestamp,
+    compartilhado bool default false
 );
 
 CREATE TABLE autor(
