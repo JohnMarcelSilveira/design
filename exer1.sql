@@ -42,3 +42,31 @@ CREATE TABLE endereco(
 	complemento varchar(60),
 	cep varchar(8)
 );
+
+
+
+/*
+
+Informações de todos os leitores e autores 
+
+select * from leitor
+union
+select * from autor
+
+Quantidade de autores envolvidos na escrita de cada Post 
+
+select post_id,count(*) from autor_post group by post_id 
+
+
+O título de cada Post e o nome de cada autores envolvido na escrita de cada Post 
+
+select p.titulo, a.nome from postagem p inner join autor_post ap on ap.post_id=p.id inner join autor a on a.id=ap.autor_id
+
+
+Listar os leitores com e sem endereços. Caso tenha endereço, coloque o endereço. Se não tiver, coloque "Sem endereço cadastrado" 
+
+
+*/
+
+
+
